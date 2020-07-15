@@ -1,0 +1,139 @@
+@media (max-width:320px){
+
+    .custom-off{
+        margin-left: 0px;
+    }
+    .custom_text h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .custom_text h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .title_h1 {
+        font-size: 25px!important;
+        font-weight: 700;
+        color: #010101;
+    }
+    .titleh4 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* slider start */
+    .custom_menu li a{
+       
+        margin-bottom:10px!important;
+    }
+    .custom_menu li:last-child a{
+        margin-right:20px!important ;
+    }
+    .custom_text h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .custom_text h2 {
+        font-size: 19px;
+    }
+    .custom_text p,.custom_icons {
+
+        text-align: center;
+    }
+    .custom-center{
+        text-align: justify;
+    }
+    .single_text{
+        text-align: center;
+    }
+    .single_text p {
+        margin-bottom: 40px;
+    }
+ .custom_margin{
+    margin-bottom: 10px;
+
+}
+.custom_img {
+    margin-bottom: 20px;
+}
+
+   
+    /* slider end */
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* slider start */
+    .custom_menu li a{
+       
+        margin-bottom:15px!important;
+    }
+    .custom_menu li:last-child a{
+        margin-right:20px!important ;
+    }
+    .custom_text h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .custom_text h2 {
+        font-size: 19px;
+    }
+    .custom_text p,.custom_icons {
+
+        text-align: center;
+    }
+
+
+    .custom-center{
+        text-align: justify;
+    }
+    .single_text{
+        text-align: center;
+    }
+ 
+/* slider end */
+.custom_img {
+    margin-bottom: 20px;
+}
+
+.custom_margin {
+    margin-bottom: 40px;
+}
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* slider start */
+    .custom_menu li a{
+       
+        margin-bottom:15px!important;
+    }
+    .custom_menu li:last-child a{
+        margin-right:20px!important ;
+    }
+    .custom_text h1 {
+        font-size: 27px;
+    }
+    .custom_icons {
+        font-size: 30px;
+    }
+
+
+    .custom-center{
+        text-align: justify;
+    }
+/* slider end */
+
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
